@@ -132,7 +132,7 @@ class InteractiveFarm:
             itr += 1
 
             if self.wait > 0.0:
-                time.sleep(0.0)
+                time.sleep(self.wait)
                 self.update()
             print("Itr: %i, Delta: %.2f" % (itr, change))
 

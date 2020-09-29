@@ -11,7 +11,10 @@ def main():
     parser.add_argument('--map', type=str, required=True, help="")
     parser.add_argument('--discount', type=float, default=1.0, help="Discount")
     parser.add_argument('--rand_right', type=float, default=0.0, help="")
-    parser.add_argument('--wait', type=float, default=0.1, help="")
+    parser.add_argument('--learning_rate', type=float, default=0.5, help="")
+    parser.add_argument('--epsilon', type=float, default=0.1, help="")
+    parser.add_argument('--wait_greedy', type=float, default=0.1, help="")
+    parser.add_argument('--wait_step', type=float, default=0.0, help="")
 
     args = parser.parse_args()
 
@@ -24,9 +27,9 @@ def main():
 
     env: FarmGridWorld = FarmGridWorld(grid, args.rand_right)
 
-    viz: InteractiveFarm = InteractiveFarm(env, agent_idx, args.discount, "STATE", show_policy=True, wait=args.wait,
-                                           val_min=-30)
-    viz.value_iteration()
+    viz: InteractiveFarm = InteractiveFarm(env, agent_idx, args.discount, "ACTION", show_policy=False,
+                                           wait=args.wait_greedy, val_min=-30)
+    viz.q_learning(args.epsilon, args.learning_rate, args.wait_step)
 
     viz.mainloop()
 

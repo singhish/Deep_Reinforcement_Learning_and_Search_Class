@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60ffb4d-f23c-413a-a30a-52f3738ef838" name="Default Changelist" comment="initial solution" />
+    <list default="true" id="e60ffb4d-f23c-413a-a30a-52f3738ef838" name="Default Changelist" comment="initial solution">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deep_Reinforcement_Learning_and_Search_Class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep_Reinforcement_Learning_and_Search_Class.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments_code/assignment2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments_code/assignment2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,6 +93,7 @@
       <workItem from="1599410530261" duration="790000" />
       <workItem from="1599411362792" duration="5906000" />
       <workItem from="1599450399642" duration="89000" />
+      <workItem from="1601398148994" duration="8831000" />
     </task>
     <task id="LOCAL-00001" summary="initial solution">
       <created>1599437256066</created>
@@ -121,22 +129,22 @@
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
     <state x="1025" y="445" width="426" height="482" key="FileChooserDialogImpl/0.28.2492.1319@0.28.2492.1319" timestamp="1599411921385" />
-    <state width="2446" height="367" key="GridCell.Tab.0.bottom" timestamp="1599437271835">
+    <state width="2446" height="367" key="GridCell.Tab.0.bottom" timestamp="1601400830984">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
-    <state width="2446" height="367" key="GridCell.Tab.0.bottom/0.28.2492.1319@0.28.2492.1319" timestamp="1599437271835" />
-    <state width="2446" height="367" key="GridCell.Tab.0.center" timestamp="1599437271828">
+    <state width="2446" height="367" key="GridCell.Tab.0.bottom/0.28.2492.1319@0.28.2492.1319" timestamp="1601400830984" />
+    <state width="2446" height="367" key="GridCell.Tab.0.center" timestamp="1601400830981">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
-    <state width="2446" height="367" key="GridCell.Tab.0.center/0.28.2492.1319@0.28.2492.1319" timestamp="1599437271828" />
-    <state width="2446" height="367" key="GridCell.Tab.0.left" timestamp="1599437271827">
+    <state width="2446" height="367" key="GridCell.Tab.0.center/0.28.2492.1319@0.28.2492.1319" timestamp="1601400830981" />
+    <state width="2446" height="367" key="GridCell.Tab.0.left" timestamp="1601400830980">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
-    <state width="2446" height="367" key="GridCell.Tab.0.left/0.28.2492.1319@0.28.2492.1319" timestamp="1599437271827" />
-    <state width="2446" height="367" key="GridCell.Tab.0.right" timestamp="1599437271829">
+    <state width="2446" height="367" key="GridCell.Tab.0.left/0.28.2492.1319@0.28.2492.1319" timestamp="1601400830980" />
+    <state width="2446" height="367" key="GridCell.Tab.0.right" timestamp="1601400830982">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
-    <state width="2446" height="367" key="GridCell.Tab.0.right/0.28.2492.1319@0.28.2492.1319" timestamp="1599437271829" />
+    <state width="2446" height="367" key="GridCell.Tab.0.right/0.28.2492.1319@0.28.2492.1319" timestamp="1601400830982" />
     <state x="735" y="323" key="SettingsEditor" timestamp="1599411769562">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
@@ -146,7 +154,17 @@
     </state>
     <state x="841" y="424" width="802" height="526" key="Vcs.Push.Dialog.v2/0.28.2492.1319@0.28.2492.1319" timestamp="1599437259779" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/visualizer/farm_visualizer.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Deep_Reinforcement_Learning_and_Search_Class$run_assignment_1.coverage" NAME="run_assignment_1 Coverage Results" MODIFIED="1599433980144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deep_Reinforcement_Learning_and_Search_Class$run_assignment_1.coverage" NAME="run_assignment_1 Coverage Results" MODIFIED="1601400825122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

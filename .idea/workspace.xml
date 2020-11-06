@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e60ffb4d-f23c-413a-a30a-52f3738ef838" name="Default Changelist" comment="initial solution">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Deep_Reinforcement_Learning_and_Search_Class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep_Reinforcement_Learning_and_Search_Class.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments_code/assignment2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments_code/assignment2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments_code/assignment3.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments_code/assignment3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProteinFolding" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,6 +92,9 @@
       <workItem from="1599411362792" duration="5906000" />
       <workItem from="1599450399642" duration="89000" />
       <workItem from="1601398148994" duration="8831000" />
+      <workItem from="1603395064821" duration="3834000" />
+      <workItem from="1603730132905" duration="23079000" />
+      <workItem from="1603942366708" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="initial solution">
       <created>1599437256066</created>
@@ -125,10 +126,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial solution" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1025" y="445" width="426" height="482" key="FileChooserDialogImpl" timestamp="1599411921385">
+    <state x="933" y="513" width="617" height="348" key="#Notifications" timestamp="1603729361579">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
+    <state x="933" y="513" width="617" height="348" key="#Notifications/0.28.2492.1319@0.28.2492.1319" timestamp="1603729361579" />
+    <state x="1053" y="466" width="426" height="482" key="FileChooserDialogImpl" timestamp="1603942394236">
+      <screen x="0" y="28" width="2560" height="1384" />
+    </state>
     <state x="1025" y="445" width="426" height="482" key="FileChooserDialogImpl/0.28.2492.1319@0.28.2492.1319" timestamp="1599411921385" />
+    <state x="1053" y="466" key="FileChooserDialogImpl/0.28.2560.1384@0.28.2560.1384" timestamp="1603942394236" />
     <state width="2446" height="367" key="GridCell.Tab.0.bottom" timestamp="1601400830984">
       <screen x="0" y="28" width="2492" height="1319" />
     </state>
